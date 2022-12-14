@@ -5,7 +5,7 @@ import Rating from "./Rating";
 function Product({ id, title, price, description, category, image, rating }) {
   return (
     <div className="relative flex flex-col bg-white p-4 z-30 text-sm">
-      <p className="absolute top-2 right-2 text-gray-400 text-xs">{category}</p>
+      <p className="absolute top-2 right-2 text-gray-500 text-xs">{category}</p>
       <div className="aspect-square relative mt-5">
         <Image src={image} alt={title} fill className="object-contain" />
       </div>
