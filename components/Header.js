@@ -54,7 +54,7 @@ function Header() {
       </div>
 
       {/* Bottom Navigation */}
-      <div className="flex items-center space-x-3 pl-6 bg-amazon_blue-light text-white text-sm whitespace-nowrap">
+      <div className="flex items-center space-x-3 pl-6 bg-amazon_blue-light text-white text-sm whitespace-nowrap overflow-x-auto">
         <p className="link flex items-center">
           <Bars3Icon className="h-6 mr-1" />
           All
