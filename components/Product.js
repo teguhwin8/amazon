@@ -19,6 +19,9 @@ function Product({ id, title, price, description, category, image, rating }) {
       </div>
       <p className="my-4 text-xs text-gray-500 line-clamp-3 h-12">{description}</p>
       <Price value={price} />
+      <div className="mt-3">
+        <button className="btn w-full">Add to cart</button>
+      </div>
     </div>
   );
 }
